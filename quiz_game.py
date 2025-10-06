@@ -1,7 +1,7 @@
 import random
 import time
 
-# List of quiz questions
+
 questions = [
     {
         "question": "Which is the longest river in Kenya?",
@@ -66,7 +66,7 @@ def run_quiz():
     print("Quiz Finished!")
     print(f"Your final score: {score}/{len(questions)}")
 
-    # Feedback
+   
     if score == len(questions):
         print("Excellent!")
     elif score >= len(questions) // 2:
